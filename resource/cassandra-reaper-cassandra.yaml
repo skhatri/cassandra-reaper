@@ -51,7 +51,7 @@ cassandra:
   keyspace: reaper_db
   queryOptions:
     consistencyLevel: LOCAL_QUORUM
-    serialConsistencyLevel: LOCAL_SERIAL
+    serialConsistencyLevel: SERIAL
 
 autoScheduling:
   enabled: false
